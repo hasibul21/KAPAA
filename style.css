@@ -10,6 +10,17 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.btn-style{
+    background-color: #005f8b;
+    color: white;
+}
+.btn-style:hover{
+    background-color: #007bb4;
+    color: white;
+}
+
+/* Hero Area */
+
 .navbar ul li, .nav-btn{
     font-size: 15px;
     margin-left: 10px;
@@ -35,19 +46,41 @@
 .dropdown-menu li a:hover{
   background-color:#000000;
 }
-.btn-style{
-    background-color: #005f8b;
-    color: white;
+.carousel-inner{
+    height: 70vh;
 }
-.btn-style:hover{
-    background-color: #007bb4;
-    color: white;
+.carousel-item{
+    height: 100%;
+}
+.carousel-img-1{
+    background-image: url('./images/Kalaroa-1.jpg');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.carousel-img-2{
+    background-image: url('./images/demo-2.jpg');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.carousel-img-3{
+    background-image: url('./images/Kalaroa-2.jpg');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /* Footer */
 
 footer{
-    background-color: #eaf8ff;
+    background-color: #eeeeee;
 }
 .quick-links ul a{
     text-decoration: none;
