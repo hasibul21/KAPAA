@@ -43,7 +43,7 @@
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="index.html#">Home</a>
+                            <a class="nav-link text-white" aria-current="page" href="index.html#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="about.html#">About</a>
@@ -66,9 +66,9 @@
                             <a class="nav-link text-white" href="gallery.html#">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="contacts.html#">Contact</a>
+                            <a class="nav-link text-white" href="index.html#contact">Contact</a>
                         </li>
-                        <li class="nav-item reg">
+                        <li class="nav-item active reg-btn">
                             <a class="nav-link text-white" href="registration.html#">Be a member</a>
                         </li>
                     </ul>
@@ -86,231 +86,462 @@
     <!-- Membership Registration Form -->
 
     <div class="container">
-        <h2 class="text-center bg-dark text-white p-5 my-3">Membership Registration Form</h2>
+        <h2 class="text-center bg-dark text-white p-5 my-3">KAPAA Membership Registration Form</h2>
         <br> <br>
         <div class="row">
-            <div class="col-md-9 col-12 text-center card py-3 mb-3">
-                <div class="row personal">
-                    <h3>Personal Information</h3>
-                    <br> <br> <br>
-                    <div class="col-6">
-                        <div class="row text-center">
-                            <div class="col-1"></div>
-                            <div class="col-10 text-end">
-                                <div>
-                                    <label for="fullname">Full Name: </label>
-                                    <input type="text" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="dob">Date of birth: </label>
-                                    <input type="date" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="email">Email: </label>
-                                    <input type="email" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="blood-group">Blood Group: </label>
-                                    <input type="text" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="father's-name">Father's Name: </label>
-                                    <input type="text" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="current-address">Current Address: </label>
-                                    <input type="text" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="current-position">Current Position </label>
-                                    <input type="text" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="organization">Organization: </label>
-                                    <input type="text" name="" id="">
-                                </div>
+            <div style="overflow: hidden;" class="col-lg-9 col-md-12 reg-form card py-3 mb-3">
+
+                <!-- Personal Information -->
+                <h3 class="text-center">Personal Information</h3>
+                <br> <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="">Select Your Picture</label>
+                            <div class="col-md-6">
+                                <input style="width: 100%;" type="file" accept="Image/*" name="" id="">
                             </div>
-                            <div class="col-1"></div>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div class="row text-center">
-                            <div class="col-1"></div>
-                            <div class="col-10 text-end">
-                                <div>
-                                    <label for="nickname">Nick Name: </label>
-                                    <input type="text" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="mobile">Mobile: </label>
-                                    <input type="number" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="nid">NID: </label>
-                                    <input type="number" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="religion">Religion: </label>
-                                    <input type="text" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="mother's-name">Mother's Name: </label>
-                                    <input type="text" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="permanent-address">Permanent Address: </label>
-                                    <input type="text" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="expertise">Area of expertise: </label>
-                                    <input type="text" name="" id="">
-                                </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="fullname">Full Name: </label>
+                            <div class="col-md-6">
+                                <input type="text" name="" id="">
                             </div>
-                            <div class="col-1"></div>
+                        </div>
+                    </div> <br> <br>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="nick_name">Nick Name</label>
+                            <div class="col-md-6">
+                                <input type="text" name="" id="">
+                            </div>
                         </div>
                     </div>
-                </div> <br> <br>
-                <div class="row educational">
-                    <h3>Educational & Professional Information</h3>
-                    <br> <br> <br>
-                    <div class="col-6">
-                        <div class="row text-center">
-                            <div class="col-1"></div>
-                            <div class="col-10 text-end">
-                                <div>
-                                    <label for="ssc-year">SSC passing year: </label>
-                                    <input type="number" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="school">High School Name: </label>
-                                    <input type="text" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="hsc">HSC passing year: </label>
-                                    <input type="number" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="college">College Name: </label>
-                                    <input type="text" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="graduation">Graduation Year: </label>
-                                    <input type="number" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="university">University Name: </label>
-                                    <input type="text" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="current-position">Masters Year: </label>
-                                    <input type="number" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="masters-university">University Name: </label>
-                                    <input type="text" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="other">Other educational details (if any): </label>
-                                    <input type="text" name="" id="">
-                                </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="dob">Date of Birth</label>
+                            <div class="col-md-6">
+                                <input type="date" name="" id="">
                             </div>
-                            <div class="col-1"></div>
+                        </div>
+                    </div> <br> <br>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-12" for="study_period">Study Period at Kalaroa Pilot High
+                                School</label>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div class="row text-center">
-                            <div class="col-1"></div>
-                            <div class="col-10 text-end">
-                                <div>
-                                    <label for="group">Group: </label>
-                                    <input type="text" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="school-address">School Address: </label>
-                                    <input type="text" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="group">Group: </label>
-                                    <input type="text" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="college-address">College Address: </label>
-                                    <input type="text" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="department">Department: </label>
-                                    <input type="text" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="university-address">University Address: </label>
-                                    <input type="text" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="masters-year">Department: </label>
-                                    <input type="text" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="masters-university">University Address: </label>
-                                    <input type="text" name="" id="">
-                                </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6">
+                                From <input type="month" name="" id="">
                             </div>
-                            <div class="col-1"></div>
+                            <div class="col-md-6">
+                                To <input type="month" name="" id="">
+                            </div>
+                        </div>
+                    </div> <br> <br>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="mobile">Mobile</label>
+                            <div class="col-md-6">
+                                <input type="number" name="" id="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="email">Email</label>
+                            <div class="col-md-6">
+                                <input type="email" name="" id="">
+                            </div>
+                        </div>
+                    </div> <br> <br>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="nid">NID/Birth ID</label>
+                            <div class="col-md-6">
+                                <input type="number" name="" id="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="blood_group">Blood Group</label>
+                            <div class="col-md-6">
+                                <select name="item">
+                                    <option value="">--Select--</option>
+                                    <option value="A+">A+</option>
+                                    <option value="A-">A-</option>
+                                    <option value="B+">B+</option>
+                                    <option value="B-">B-</option>
+                                    <option value="O+">O+</option>
+                                    <option value="O-">O-</option>
+                                    <option value="AB+">AB+</option>
+                                    <option value="AB-">AB-</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div> <br> <br>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="father">Father's Name</label>
+                            <div class="col-md-6">
+                                <input type="text" name="" id="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="mother">Mother's Name</label>
+                            <div class="col-md-6">
+                                <input type="text" name="" id="">
+                            </div>
+                        </div>
+                    </div> <br> <br>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="present_address">Present Address</label>
+                            <div class="col-md-6">
+                                <textarea name="" id=""></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="permanent_address">Permanent Address</label>
+                            <div class="col-md-6">
+                                <textarea name="" id=""></textarea>
+                            </div>
+                        </div>
+                    </div> <br> <br>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="religion">Religion</label>
+                            <div class="col-md-6">
+                                <input type="text" name="" id="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="current_position">Current Position</label>
+                            <div class="col-md-6">
+                                <input type="text" name="" id="">
+                            </div>
+                        </div>
+                    </div> <br> <br>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="speciality_area">Area of Speciality</label>
+                            <div class="col-md-6">
+                                <input type="text" name="" id="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="current_position">Organization Name & Address</label>
+                            <div class="col-md-6">
+                                <textarea name="" id=""></textarea>
+                            </div>
                         </div>
                     </div>
                 </div> <br> <br>
-                <div class="row payment">
-                    <h3>Payment Information</h3>
-                    <br> <br> <br>
-                    <div class="col-6">
-                        <div class="row text-center">
-                            <div class="col-1"></div>
-                            <div class="col-10 text-end">
-                                <div>
-                                    <label for="payment-method">Payment Method: </label>
-                                    <select name="item">
-                                        <option value="">--Select--</option>
-                                        <option>bKash</option>
-                                        <option>Rocket</option>
-                                        <option>Nagad</option>
-                                        <option>UPay</option>
-                                        <option>Bank</option>
-                                    </select>
-                                </div> <br>
-                                <div>
-                                    <label for="amount">Amount: </label>
-                                    <input type="number" name="" id="">
-                                </div>
+
+                <!-- Educational & Professional Information -->
+                <h3 class="text-center">Educational & Professional Information</h3>
+                <br> <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="ssc_year">SSC Passing Year</label>
+                            <div class="col-md-6">
+                                <select name="ssc_year">
+                                    <option value="">--Select--</option>
+                                    <option value="">1950</option>
+                                    <option value="">1951</option>
+                                    <option value="">1952</option>
+                                    <option value="">1953</option>
+                                    <option value="">1954</option>
+                                    <option value="">1955</option>
+                                    <option value="">1956</option>
+                                    <option value="">1957</option>
+                                    <option value="">1958</option>
+                                    <option value="">1959</option>
+                                    <option value="">1960</option>
+                                    <option value="">1961</option>
+                                    <option value="">1962</option>
+                                    <option value="">1963</option>
+                                    <option value="">1964</option>
+                                    <option value="">1965</option>
+                                    <option value="">1966</option>
+                                    <option value="">1967</option>
+                                    <option value="">1968</option>
+                                    <option value="">1969</option>
+                                    <option value="">1970</option>
+                                </select>
                             </div>
-                            <div class="col-1"></div>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div class="row text-center">
-                            <div class="col-1"></div>
-                            <div class="col-10 text-end">
-                                <div>
-                                    <label for="payment-date">Payment Date: </label>
-                                    <input type="date" name="" id="">
-                                </div> <br>
-                                <div>
-                                    <label for="reference">Reference Number: </label>
-                                    <input type="text" name="" id="">
-                                </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="ssc_group">Group</label>
+                            <div class="col-md-6">
+                                <input type="text" name="" id="">
                             </div>
-                            <div class="col-1"></div>
+                        </div>
+                    </div> <br> <br>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="school">High School Name</label>
+                            <div class="col-md-6">
+                                <input type="text" name="" id="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="school_address">High School Address</label>
+                            <div class="col-md-6">
+                                <input type="text" name="" id="">
+                            </div>
+                        </div>
+                    </div> <br> <br>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="hsc_year">HSC Passing Year</label>
+                            <div class="col-md-6">
+                                <select name="hsc_year">
+                                    <option value="">--Select--</option>
+                                    <option value="">1950</option>
+                                    <option value="">1951</option>
+                                    <option value="">1952</option>
+                                    <option value="">1953</option>
+                                    <option value="">1954</option>
+                                    <option value="">1955</option>
+                                    <option value="">1956</option>
+                                    <option value="">1957</option>
+                                    <option value="">1958</option>
+                                    <option value="">1959</option>
+                                    <option value="">1960</option>
+                                    <option value="">1961</option>
+                                    <option value="">1962</option>
+                                    <option value="">1963</option>
+                                    <option value="">1964</option>
+                                    <option value="">1965</option>
+                                    <option value="">1966</option>
+                                    <option value="">1967</option>
+                                    <option value="">1968</option>
+                                    <option value="">1969</option>
+                                    <option value="">1970</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="hsc_group">Group</label>
+                            <div class="col-md-6">
+                                <input type="text" name="" id="">
+                            </div>
+                        </div>
+                    </div> <br> <br>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="college">College Name</label>
+                            <div class="col-md-6">
+                                <input type="text" name="" id="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="college_address">College Address</label>
+                            <div class="col-md-6">
+                                <input type="text" name="" id="">
+                            </div>
+                        </div>
+                    </div> <br> <br>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="graduation_year">Graduation Year</label>
+                            <div class="col-md-6">
+                                <select name="graduation_year">
+                                    <option value="">--Select--</option>
+                                    <option value="">1950</option>
+                                    <option value="">1951</option>
+                                    <option value="">1952</option>
+                                    <option value="">1953</option>
+                                    <option value="">1954</option>
+                                    <option value="">1955</option>
+                                    <option value="">1956</option>
+                                    <option value="">1957</option>
+                                    <option value="">1958</option>
+                                    <option value="">1959</option>
+                                    <option value="">1960</option>
+                                    <option value="">1961</option>
+                                    <option value="">1962</option>
+                                    <option value="">1963</option>
+                                    <option value="">1964</option>
+                                    <option value="">1965</option>
+                                    <option value="">1966</option>
+                                    <option value="">1967</option>
+                                    <option value="">1968</option>
+                                    <option value="">1969</option>
+                                    <option value="">1970</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="department">Department</label>
+                            <div class="col-md-6">
+                                <input type="text" name="" id="">
+                            </div>
+                        </div>
+                    </div> <br> <br>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="university">University/Institute Name</label>
+                            <div class="col-md-6">
+                                <input type="text" name="" id="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="university_address">University/Institute Address</label>
+                            <div class="col-md-6">
+                                <input type="text" name="" id="">
+                            </div>
+                        </div>
+                    </div> <br> <br>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="master's_year">Master's Year</label>
+                            <div class="col-md-6">
+                                <select name="master's_year">
+                                    <option value="">--Select--</option>
+                                    <option value="">1950</option>
+                                    <option value="">1951</option>
+                                    <option value="">1952</option>
+                                    <option value="">1953</option>
+                                    <option value="">1954</option>
+                                    <option value="">1955</option>
+                                    <option value="">1956</option>
+                                    <option value="">1957</option>
+                                    <option value="">1958</option>
+                                    <option value="">1959</option>
+                                    <option value="">1960</option>
+                                    <option value="">1961</option>
+                                    <option value="">1962</option>
+                                    <option value="">1963</option>
+                                    <option value="">1964</option>
+                                    <option value="">1965</option>
+                                    <option value="">1966</option>
+                                    <option value="">1967</option>
+                                    <option value="">1968</option>
+                                    <option value="">1969</option>
+                                    <option value="">1970</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="master's_department">Department</label>
+                            <div class="col-md-6">
+                                <input type="text" name="" id="">
+                            </div>
+                        </div>
+                    </div> <br> <br>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="master's_university">University/Institute Name</label>
+                            <div class="col-md-6">
+                                <input type="text" name="" id="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="master's_university_address">University/Institute
+                                Address</label>
+                            <div class="col-md-6">
+                                <input type="text" name="" id="">
+                            </div>
+                        </div>
+                    </div> <br> <br>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="others">Other Educational Details (if any)</label>
+                            <div class="col-md-6">
+                                <textarea name="" id=""></textarea>
+                            </div>
                         </div>
                     </div>
                 </div> <br> <br>
-                <div>
-                    <button type="submit" class="text-center px-5 py-2 btn btn-style">Submit</button>
+
+                <!-- Payment Information -->
+                <h3 class="text-center">Payment Information</h3>
+                <br> <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="payment_method">Payment Method</label>
+                            <div class="col-md-6">
+                                <select name="payment">
+                                    <option value="">--Select--</option>
+                                    <option value="bKash">bKash</option>
+                                    <option value="Rocket">Rocket</option>
+                                    <option value="Nagad">Nagad</option>
+                                    <option value="UPay">UPay</option>
+                                    <option value="Bank">Bank</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="amount">Payment Amount</label>
+                            <div class="col-md-6">
+                                <input type="number" name="" id="">
+                            </div>
+                        </div>
+                    </div> <br> <br>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="payment-date">Payment Date: </label>
+                            <div class="col-md-6">
+                                <input type="date" name="" id="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-6" for="reference">Reference Number: </label>
+                            <div class="col-md-6">
+                                <input type="text" name="" id="">
+                            </div>
+                        </div>
+                    </div>
+                </div> <br> <br>
+
+                <div class="text-center">
+                    <button type="submit" class="px-5 py-2 btn btn-style">Submit</button>
                 </div>
             </div>
-            <div class="col-md-3 col-12">
+
+            <div class="col-lg-3 col-12">
                 <div class="card bg-warning p-2">
                     <div class="card-header">
                         <h3 class="card-title">Follow the Instructions</h3>
                     </div>
-                    <div class="card-body">
+                    <div style="text-align: justify;" class="card-body">
                         <ol style="padding-left: 2px;">
                             <li> Make sure you have paid registration fee 3060 BDT for bkash and 3000 BDT for bank
                                 before registration.</li>
@@ -325,18 +556,18 @@
     </div>
 
     <!-- Footer -->
-    
+
     <footer class="pt-4 section-margin section-padding">
-    
+
         <!-- Footer Links -->
         <div class="container text-center text-md-left">
-    
+
             <!-- Grid row -->
             <div class="row">
-    
+
                 <!-- Grid column -->
                 <div class="col-md-4 col-lg-3 my-md-4 my-0 mt-4 mb-1">
-    
+
                     <!-- Content -->
                     <h5 class="font-weight-bold text-uppercase mb-4">Footer Content</h5>
                     <p style="text-align: justify;">Kalaroa Pilot High School Alumni Association.</p>
@@ -345,18 +576,18 @@
                         voluptate
                         esse
                         quasi, veritatis totam voluptas nostrum.</p>
-    
+
                 </div>
                 <!-- Grid column -->
-    
+
                 <hr class="clearfix w-100 d-md-none">
-    
+
                 <!-- Grid column -->
                 <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1 quick-links">
-    
+
                     <!-- Links -->
                     <h5 class="text-uppercase mb-4">Quick Links</h5>
-    
+
                     <ul class="list-unstyled">
                         <li>
                             <p>
@@ -379,27 +610,27 @@
                             </p>
                         </li>
                     </ul>
-    
+
                 </div>
                 <!-- Grid column -->
-    
+
                 <hr class="clearfix w-100 d-md-none">
-    
+
                 <!-- Grid column -->
                 <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
-    
+
                     <!-- Contact details -->
                     <h5 class="text-uppercase mb-4">Contact</h5>
-    
+
                     <ul class="list-unstyled">
                         <li>
                             <p>
-                                <i class="fas fa-home"></i> Kalaroa, Khulna, Bangladesh
+                                <i class="fas fa-home"></i> Banani, Dhaka-1213, Bangladesh
                             </p>
                         </li>
                         <li>
                             <p>
-                                <i class="fas fa-envelope"></i> info@example.com
+                                <i class="fas fa-envelope"></i> email2kapaa@gmail.com
                             </p>
                         </li>
                         <li>
@@ -409,22 +640,22 @@
                         </li>
                         <li>
                             <p>
-                                <i class="fas fa-print"></i> + 01 234 567 89
+                                <i class="fas fa-globe"></i> www.kapaa.org.bd
                             </p>
                         </li>
                     </ul>
-    
+
                 </div>
                 <!-- Grid column -->
-    
+
                 <hr class="clearfix w-100 d-md-none">
-    
+
                 <!-- Grid column -->
                 <div class="col-md-2 col-lg-2 text-center mx-auto my-4 social-links">
-    
+
                     <!-- Social buttons -->
                     <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
-    
+
                     <a type="button" style="color: #4267B2;">
                         <i class="fa-brands fa-2x fa-facebook"></i>
                     </a>
@@ -434,22 +665,22 @@
                     <a type="button" style="color: #1da1f2;">
                         <i class="fa-brands fa-2x fa-twitter"></i>
                     </a>
-    
+
                 </div>
                 <!-- Grid column -->
-    
+
             </div>
             <!-- Grid row -->
-    
+
         </div>
         <!-- Footer Links -->
-    
+
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3">
             © 2022 Copyright: Kalaroa Pilot High School Alumni Association (KAPAA)
         </div>
         <!-- Copyright -->
-    
+
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"

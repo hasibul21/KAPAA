@@ -24,8 +24,8 @@
 .navbar ul li, .nav-btn{
     font-size: 15px;
     margin-left: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     background-color: #005f8b;
     color: white;
     border-radius: 5px;
@@ -35,17 +35,21 @@
     background-color: #F08C22;
     color: white;
 }
-.navbar .reg{
+.navbar .reg-btn{
     background-color: #F08C22;
     transition: all .3s ease;
 }
-.navbar .reg:hover{
+.navbar .reg-btn:hover{
     background-color: #F08C22;
     border-left: #005f8b 10px solid;
 }
 .dropdown-menu li a:hover{
   background-color:#000000;
 }
+.navbar .active{
+    border-left: 10px solid #F08C22;
+}
+
 .carousel-inner{
     height: 70vh;
 }
@@ -61,7 +65,7 @@
     background-position: center;
 }
 .carousel-img-2{
-    background-image: url('./images/demo-2.jpg');
+    background-image: url('./images/Kalaroa-2.jpg');
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -69,12 +73,47 @@
     background-position: center;
 }
 .carousel-img-3{
-    background-image: url('./images/Kalaroa-2.jpg');
+    background-image: url('./images/Kalaroa-3.jpg');
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+/* Contact */
+
+#contact .card{
+    background-color: #005f8b;
+    color: white;
+    border-bottom: #F08C22 5px solid;
+}
+
+/* Registration Form */
+
+.reg-form input, textarea{
+    width: 160px;
+}
+
+@media only screen and (max-width: 767px) {
+  .reg-form input, textarea, select {
+    margin-bottom: 20px;
+  }
+  .reg-form{
+    text-align: center;
+  }
+}
+
+/* Gallery */
+
+.gallery img{
+    border: 2px solid #F08C22;
+    transition: all .3s ease;
+    margin: 10px;
+}
+.gallery img:hover{
+    transform: scale(1.03);
+    margin: 0px;
 }
 
 /* Footer */
